@@ -1,13 +1,13 @@
-// Escriba un programa que lea tres nC:meros enteros del teclado e imprima la suma,
-// el promedio, el producto, el mC!s pequeC1o y el mC!s grande de estos nC:meros.
+// Escriba un programa que lea tres numeros enteros del teclado e imprima la suma,
+// el promedio, el producto, el mas pequeño y el mas grande de estos numeros.
 #include <iostream>
 using namespace std;
 
 int main() { // Inicializacion de las variables a usar
 	int miArray [3];
 	float suma;
-	float promedio;
-	float producto;
+	int promedio;
+	float producto = 1;
 	int numMenor;
 	int numMayor;
 
@@ -28,7 +28,7 @@ int main() { // Inicializacion de las variables a usar
 	   cout << miArray[i] << " ";
 	   suma = suma + miArray[i];
 	   promedio = suma / 3;
-	   producto = suma * miArray[i];
+	   producto *= miArray[i];
 	    
 	   // Se checa el numero menor
 	   if (miArray[i] <= numMenor)
@@ -42,12 +42,12 @@ int main() { // Inicializacion de las variables a usar
 	   numMayor = miArray[i];
 	   }
     }
-    
 
 	cout << endl << endl << "La suma es: " << suma << endl;
 	cout << "El promedio es: " << promedio << endl;
 	cout << "El producto es: " << producto << endl;
-	cout << "El mas pequeño es: " << numMenor << endl;
+	cout << "El mas pequeÃ±o es: " << numMenor << endl;
 	cout << "El mas grande es: " << numMayor << endl;
+	
 	return 0;
 }
