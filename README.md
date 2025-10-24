@@ -3,9 +3,9 @@
 
 ## 👤 Información del alumno
 
-- Nombre:
-- Matrícula:
-- Fecha:
+- Nombre: Jorge Hernán Velásquez Moreno
+- Matrícula: s25018121
+- Fecha: 23-10-2025
 
 ## 🎯 Objetivos
 
