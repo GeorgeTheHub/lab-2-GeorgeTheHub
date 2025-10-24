@@ -1,5 +1,5 @@
-// Escriba un programa que lea tres numeros enteros del teclado e imprima la suma,
-// el promedio, el producto, el mas pequeño y el mas grande de estos numeros.
+// Escriba un programa que ingrese un número de cinco dígitos, divida el número en sus dígitos individuales
+// e imprima los dígitos separados entre sí por tres espacios cada uno.
 #include <iostream>
 using namespace std;
 
@@ -46,7 +46,7 @@ int main() { // Inicializacion de las variables a usar
 	cout << endl << endl << "La suma es: " << suma << endl;
 	cout << "El promedio es: " << promedio << endl;
 	cout << "El producto es: " << producto << endl;
-	cout << "El mas pequeño es: " << numMenor << endl;
+	cout << "El mas pequeÃ±o es: " << numMenor << endl;
 	cout << "El mas grande es: " << numMayor << endl;
 	
 	return 0;
